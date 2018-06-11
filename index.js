@@ -32,4 +32,4 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
-}
+function placeOrder(credit) {if (`${credit}`==="undefined") {return "Sorry, we don't have your credit card on file."} else {return `Your total cost is $${total3()}, which will be charged to the card ${credit}.`}}}
