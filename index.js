@@ -31,5 +31,5 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  if (`${credit}`==="undefined") {return "Sorry, we don't have your credit card on file."} else {return `Your total cost is $${total()}, which will be charged to the card ${credit}.`}
+  if (`${cardNumber}`==="undefined") {return "Sorry, we don't have your credit card on file."} else {return `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`}
   }
